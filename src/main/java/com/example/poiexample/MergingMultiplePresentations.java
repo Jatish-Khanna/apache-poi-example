@@ -20,8 +20,8 @@ public class MergingMultiplePresentations {
 		try (XMLSlideShow ppt = new XMLSlideShow()) {
 
 			// taking the two presentations that are to be merged
-			String file1 = "presentation1.pptx";
-			String file2 = "presentation2.pptx";
+			String file1 = "powerPoint1.pptx";
+			String file2 = "powerPoint2.pptx";
 			String[] inputs = { file1, file2 };
 
 			for (String arg : inputs) {
